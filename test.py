@@ -11,14 +11,6 @@ for i in range(len(data)):
     print(response.json())
 
 input()
-response = requests.delete(BASE + "video/0")
-print(response)
-input()
-response = requests.get(BASE + "video/2")
+response = requests.get(BASE + "video/6")
 print(response.json())
 
-# response = requests.put(BASE + "video/1", {"name": "HUY", "views": 1245, "likes": 10})
-# response = requests.put(BASE + "video/1", {"name": "HUY", "views": 1245, "likes": 10})
-# print()
-# response = requests.get(BASE + "video/1")
-# response = requests.delete(BASE + "video/1")
